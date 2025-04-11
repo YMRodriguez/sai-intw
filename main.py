@@ -62,9 +62,42 @@ def get_embedding(text: str) -> np.ndarray:
     return np.array(response.json()["data"][0]["embedding"])
 
 def needs_search(query: str) -> bool:
-    """Determine if the query requires a search."""
-    question_words = ["what", "how", "why", "when", "where", "who", "is", "are"]
-    return any(word in query.lower() for word in question_words) or query.endswith("?")
+    """Determine if the query requires a search based on enhanced heuristics."""
+    query_lower = query.lower().strip()
+    
+    # Expanded question words and request verbs
+    question_words = [
+        "what", "how", "why", "when", "where", "who", "is", "are", "can", "could", "would",
+        "tell", "explain", "describe", "show", "list", "find", "search"
+    ]
+    
+    # Check for question words in the query
+    if any(word in query_lower.split() for word in question_words):
+        return True
+    
+    # Check for question mark
+    if query.endswith("?"):
+        return True
+    
+    # Check for imperative statements or request phrases
+    request_phrases = [
+        "tell me", "explain", "describe", "i want to know", "i’m curious about", "can you tell me",
+        "what is", "how does", "why is", "when did", "where is", "who is"
+    ]
+    if any(query_lower.startswith(phrase) for phrase in request_phrases):
+        return True
+    
+    # Use regex to detect specific patterns
+    patterns = [
+        r"^(what|how|why|when|where|who|can|could|would|tell|explain|describe)",  # Starts with key words
+        r"\b(can|could|would)\b"  # Contains modal verbs
+    ]
+    for pattern in patterns:
+        if re.search(pattern, query_lower):
+            return True
+    
+    # If no conditions are met, assume no search is needed
+    return False
 
 def semantic_search(query_embedding: np.ndarray, top_k: int) -> List[Dict]:
     """Perform semantic search using cosine similarity."""

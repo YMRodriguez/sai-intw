@@ -28,6 +28,10 @@ This is a simple Retrieval-Augmented Generation (RAG) pipeline built with FastAP
 6. **Answer Generation**:
    - Uses Mistral AI to generate an answer based on the top chunks and query.
 
+# System overview
+![System overview](./StackAIRAG.png)
+
+
 ## Project Structure
 rag_pipeline/
 ├── main.py         # Main FastAPI application
