@@ -1,0 +1,15 @@
+Title: CRISPR Technology: Revolutionizing Crop Development
+
+Abstract: This case study details a specific CRISPR application in agriculture.
+
+1. Introduction
+   CRISPR enables precise genome editing in plants.
+
+2. Case Study: Disease-Resistant Wheat
+   In 2018, researchers used CRISPR to edit the TaMLO gene in wheat, conferring resistance to powdery mildew. This reduced pesticide use by 30%.
+
+3. Conclusion
+   CRISPR offers sustainable solutions for crop improvement.
+
+References:
+- Zhang, Y. et al. (2018). CRISPR in wheat.

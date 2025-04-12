@@ -1,0 +1,20 @@
+Title: Environmental Risks of Deep-Sea Mining
+
+Abstract: This report examines the ecological impacts of deep-sea mining and potential mitigation strategies.
+
+1. Introduction
+   Deep-sea mining targets mineral-rich nodules on the ocean floor.
+
+2. Primary Environmental Concerns
+   - Habitat Destruction: Mining disrupts fragile ecosystems like hydrothermal vents.
+   - Sediment Plumes: Stirred-up sediments release toxic metals, harming marine life.
+
+3. Mitigation Strategies
+   - Marine Protected Areas: Restrict mining in biodiversity hotspots.
+   - Low-Impact Technology: Reduce sediment disturbance with precision equipment.
+
+4. Conclusion
+   Balancing resource extraction and environmental protection is critical.
+
+References:
+- Van Dover, C. L. (2011). Deep-sea mining impacts.

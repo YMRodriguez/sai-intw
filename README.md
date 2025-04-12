@@ -33,9 +33,13 @@ This is a simple Retrieval-Augmented Generation (RAG) pipeline built with FastAP
 
 
 ## Project Structure
-rag_pipeline/
+sai-intw/
 ├── main.py         # Main FastAPI application
 ├── pyproject.toml  # Project configuration and dependencies
+├── test_ingestion.py  # Script to test ingestion
+├── test_query.py  # Script to test queries
+├── /text_testing_docs  # Sample files to test
+├── /pdfs_testing_docs  # Sample pdf files to test
 └── README.md       # Project documentation
 
 ## How to Run

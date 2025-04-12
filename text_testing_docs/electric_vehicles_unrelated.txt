@@ -1,0 +1,15 @@
+Title: Advancements in Electric Vehicle Technology
+
+Abstract: This article reviews recent EV innovations.
+
+1. Introduction
+   Electric vehicles (EVs) reduce carbon emissions.
+
+2. Battery Improvements
+   Solid-state batteries extend range to over 500 miles.
+
+3. Conclusion
+   EVs are shaping the future of transportation.
+
+References:
+- BloombergNEF (2023). EV outlook.

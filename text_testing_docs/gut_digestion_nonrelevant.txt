@@ -1,0 +1,15 @@
+Title: Gut Microbiota and Digestive Health
+
+Abstract: This article explores how microbiota aid digestion and nutrient absorption.
+
+1. Introduction
+   Trillions of microbes live in the human gut, breaking down complex carbohydrates.
+
+2. Role in Digestion
+   Bacteria like Lactobacillus ferment dietary fiber into short-chain fatty acids, improving gut motility.
+
+3. Conclusion
+   Microbiota are essential for digestive efficiency, but mental health effects are not addressed here.
+
+References:
+- Flint, H. J. (2012). Microbial fermentation in the gut.

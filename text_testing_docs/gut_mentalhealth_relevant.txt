@@ -1,0 +1,15 @@
+Title: The Gut-Brain Axis: Microbiota’s Role in Mental Health
+
+Abstract: This review summarizes evidence linking gut microbiota to mental health, focusing on depression.
+
+1. Overview of the Gut-Brain Axis
+   The gut-brain axis connects the gastrointestinal tract to the central nervous system via neural and biochemical pathways.
+
+2. Evidence Linking Microbiota to Depression
+   Studies (e.g., Jiang et al., 2015) show that patients with severe depression have reduced levels of Bacteroides and elevated Firmicutes. A 2020 clinical trial found that probiotics reduced depressive symptoms in 60% of participants.
+
+3. Conclusion
+   Microbiota composition influences depression severity, offering potential therapeutic targets.
+
+References:
+- Jiang, H. et al. (2015). Gut microbiota and depression.

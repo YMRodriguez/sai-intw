@@ -10,4 +10,5 @@ dependencies = [
     "pdfminer.six",
     "requests",
     "numpy",
+    "python-multipart"
 ]

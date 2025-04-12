@@ -1,0 +1,15 @@
+Title: Ethical Considerations of CRISPR in Human Gene Editing
+
+Abstract: This paper debates the moral implications of CRISPR in humans.
+
+1. Introduction
+   CRISPR can edit human embryos, raising ethical questions.
+
+2. Ethical Issues
+   Concerns include designer babies and unintended genetic consequences.
+
+3. Conclusion
+   Human applications remain controversial, with no focus on agriculture.
+
+References:
+- Doudna, J. A. (2017). CRISPR ethics.
